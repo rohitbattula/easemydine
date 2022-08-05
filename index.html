@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ease My Dine</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+  <body>
+    <!--header start  -->
+    <header>
+      <a href="#" class="logo"><img src="logo1.jpg" alt="logo"></a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#restaurants">restaurants</a>
+        <a href="#feedback">feedback</a>
+        <a href="#contactus">contact us</a>
+
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu"></i>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-heart"></i>
+      </div>
+    </header>
+    <!--header end  -->
+
+    <!--promotions section start-->
+    <div class="home" id="home">
+      <div class="home-slider">
+        <div class="wrapper">
+          <div class="slide slide1">
+            <div class="content">
+              <img src="">
+
+              <h3>new cuisines</h3>
+              <h1>Trident</h1>
+              <p>
+                20% off for our beloved customers
+              </p>
+              <a href="rest1.html" class="btn">order now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--promotions section ends-->
+
+    <!--restaurant section start-->
+    <section class="welcome" id="restaurants">
+        <h1 class="heading">WELCOME TO EASE MY DINE</h1>
+        <center><h3 class="sub-heading"> ~ Your destination for all restaurants ~ </h3></center>
+
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="rest1.jpg" alt="restaurant1">
+            </div>
+
+            <div class="content">
+              <h3>trident</h3>
+              <p>A.S.Rao nagar,Ecil,Hyderabad</p>
+
+              <a href="rest1.html" class="btn">book table</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="rest2.jpg" alt="restaurant2">
+            </div>
+
+            <div class="content">
+              <h3>marriot</h3>
+              <p>Madhapur,Hyderabad</p>
+
+              <a href="rest2.html" class="btn">book table</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="rest3.jpg" alt="restaurant3">
+            </div>
+
+            <div class="content">
+              <h3>leonard</h3>
+              <p>Jubilee hills,Hyderabad</p>
+
+              <a href="rest3.html" class="btn">book table</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--restaurant section end-->
+
+      <!--feedback start-->
+
+    <section class="feedback welcome" id="feedback">
+        <h1 class="heading">feedback of our website</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="website1.jpg" alt="photo1">
+            </div>
+
+            <div class="content">
+              <h3>rohit</h3>
+              <p>
+                The preordering option available in the website was out of the box.It is an amazing feature which saves waiting time.
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="website2.jpg" alt="photo2">
+            </div>
+
+            <div class="content">
+              <h3>hari prasad</h3>
+              <p>
+                Great website, easy to navigate,user friendly ui.
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="website3.jpg" alt="photo3">
+            </div>
+
+            <div class="content">
+              <h3>shivaram</h3>
+              <p>
+                It was a good website but some new features could be added to make the website more useful.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <!--feedback ends-->
+
+  <!--footer starts-->
+    <section class="footer" id="contactus">
+      <img src="logo1.jpg" alt="logo">
+
+      <div class="container">
+        <div>
+          <h3>ABOUT US</h3>
+          <p>we are a team of three who tried our best
+          to reduce people burden by building a website</p>
+        </div>
+
+        <div>
+          <h3>get news & offers</h3>
+          <input type="email" name="" placeholder="enter your email">
+          <input type="text" name="" placeholder="name">
+          <input type="text" name="" placeholder="feedback on website">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>contact us</h3>
+          <span>PR5</span>
+          <span>+91 454984331</span>
+          <span>easemydine@gmail.com</span>
+        </div>
+      </div>
+
+      <p>&copy;2022 reserved by PR5</p>
+    </section>
+
+  <!--footer ends-->
+
+
+    <script type="text/javascript">
+      let menu = document.querySelector('#menu');
+      let navbar = document.querySelector('.navbar');
+
+      menu.onclick = () =>{
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
